@@ -13,6 +13,7 @@ export const About = () => (
                width: '250px',
                borderRadius: '250px'
                }}
+               alt="my picture"
             />
          </figure>
          </div>
