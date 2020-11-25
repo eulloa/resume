@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Nav = () => (
    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="/">Efren Ulloa</a>
+      <Link to="/resume" className="navbar-brand">Efren Ulloa</Link>
       <ul className="nav justify-content-end">
          <li className="nav-item">
             <Link to="/experience">Experience</Link>

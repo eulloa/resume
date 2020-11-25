@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       <Nav />
       <Switch>
-        <Route exact path="/" component={About} />
+        <Route exact path="/resume" component={About} />
         <Route path="/experience" component={Experience} />
         <Route path="/skills" component={Skills} />
       </Switch>
