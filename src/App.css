@@ -1,3 +1,11 @@
+.badge {
+  font-size: 1.5rem;
+}
+
+.badge-pill {
+  font-size: 1rem;
+}
+
 .logo-container {
   position: relative;
 }
@@ -15,6 +23,16 @@
 
 .mail-logo {
   background: transparent url(./Images/mail.png) no-repeat center center / contain;
+}
+
+.skills ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skills li  {
+  display: inline-flex;
+  padding-right: 1rem;
 }
 
 @media (max-width: 31.25em) {
