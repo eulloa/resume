@@ -6,10 +6,10 @@ export const Nav = () => (
       <Link to="/resume" className="navbar-brand">Efren Ulloa</Link>
       <ul className="nav justify-content-end">
          <li className="nav-item">
-            <Link to="/experience">Experience</Link>
+            <Link className="nav-link" to="/experience">Experience</Link>
          </li>
          <li className="nav-item">
-         <Link to="/skills">Skills</Link>
+            <Link className="nav-link" to="/skills">Skills</Link>
          </li>
       </ul>
    </nav>

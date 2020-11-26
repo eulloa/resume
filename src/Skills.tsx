@@ -1,3 +1,7 @@
 import React from 'react';
 
-export const Skills = () => <p>skills</p>
+export const Skills = () => (
+   <div className="container">
+      <p>skills</p>
+   </div>
+);

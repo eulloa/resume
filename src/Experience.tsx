@@ -1,5 +1,7 @@
 import React from 'react';
 
 export const Experience = () => (
-   <p>experience</p>
-)
+   <div className="container">
+      <p>experience</p>
+   </div>
+);
