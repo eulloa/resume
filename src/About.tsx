@@ -32,7 +32,7 @@ export const About = () => (
             <h2 className="badge badge-dark">Background</h2><br />
             <span>Front end focused, full stack engineer with 6 years of professional software development experience.
                A fast learner with a proven track record for delivering results in a deadline driven environment, I am
-               looking for a challenging position where the intersection of technology and software development can be applied
+               looking for a challenging position where the intersection of technology and software development can be leveraged
                to achieve business goals and success.
             </span>
          </section>

@@ -5,11 +5,13 @@ export const Skills = () => (
       <div className="p-4">
          <h2 className="badge badge-dark">Skills</h2><br />
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-dark">Front end development</h2>
+            <h2 className="badge badge-pill badge-light">Front end development</h2>
             <ul>
                <li>JavaScript</li>
                <li>React</li>
+               <li>React Testing Library</li>
                <li>TypeScript</li>
+               <li>Enzyme</li>
                <li>MobX</li>
                <li>jQuery</li>
                <li>Jest</li>
@@ -19,7 +21,7 @@ export const Skills = () => (
             </ul>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-dark">Back end development</h2>
+            <h2 className="badge badge-pill badge-light">Back end development</h2>
             <ul>
                <li>NodeJS</li>
                <li>ExpressJS</li>
@@ -30,7 +32,7 @@ export const Skills = () => (
             </ul>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-dark">Databases</h2>
+            <h2 className="badge badge-pill badge-light">Databases</h2>
             <ul>
                <li>MySQL</li>
                <li>MongoDB</li>
@@ -38,14 +40,14 @@ export const Skills = () => (
             </ul>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-dark">Version Control</h2>
+            <h2 className="badge badge-pill badge-light">Version Control</h2>
             <ul>
                <li>Git</li>
                <li>Subversion</li>
             </ul>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-dark">DevOps</h2>
+            <h2 className="badge badge-pill badge-light">DevOps</h2>
             <ul>
                <li>Docker</li>
                <li>Jenkins</li>
@@ -53,7 +55,7 @@ export const Skills = () => (
             </ul>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-dark">Languages</h2>
+            <h2 className="badge badge-pill badge-light">Languages</h2>
             <ul>
                <li>English</li>
                <li>Spanish</li>
