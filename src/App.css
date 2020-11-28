@@ -17,12 +17,26 @@
   width: 23px;
 }
 
+.nav-link:hover {
+  color: #fff;
+}
+
 .github-logo {
   background: transparent url(./Images/github-logo.png) no-repeat center center / contain;
 }
 
 .mail-logo {
   background: transparent url(./Images/mail.png) no-repeat center center / contain;
+}
+
+#root {
+  position: relative;
+}
+
+#tsparticles {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
 }
 
 .skills ul {

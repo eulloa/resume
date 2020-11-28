@@ -1,9 +1,9 @@
 import React from 'react';
 
 export const Skills = () => (
-   <div className="container bg-secondary text-white skills">
+   <div className="container text-white skills">
       <div className="p-4">
-         <h2 className="badge badge-primary">Skills</h2><br />
+         <h2 className="badge badge-dark">Skills</h2><br />
          <div className="mt-4 mb-4">
             <h2 className="badge badge-pill badge-dark">Front end development</h2>
             <ul>

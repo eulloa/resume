@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const About = () => (
-   <div className="container bg-secondary">
+   <div className="container">
       <div className="row p-4">
          <div className="mx-auto text-white d-flex m-stack">
             <img
@@ -27,9 +27,9 @@ export const About = () => (
             </div>
          </div>
       </div>
-      <div className="row border-top p-4">
+      <div className="row p-4">
          <section className="text-white">
-            <h2 className="badge badge-primary">Background</h2><br />
+            <h2 className="badge badge-dark">Background</h2><br />
             <span>Front end focused, full stack engineer with 6 years of professional software development experience.
                A fast learner with a proven track record for delivering results in a deadline driven environment, I am
                looking for a challenging position where the intersection of technology and software development can be applied
