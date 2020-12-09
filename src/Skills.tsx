@@ -5,61 +5,62 @@ export const Skills = () => (
       <div className="p-4">
          <h2 className="badge badge-dark">Skills</h2><br />
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-light">Front end development</h2>
-            <ul>
-               <li>JavaScript</li>
-               <li>React</li>
-               <li>React Testing Library</li>
-               <li>TypeScript</li>
-               <li>Enzyme</li>
-               <li>MobX</li>
-               <li>jQuery</li>
-               <li>Jest</li>
-               <li>Webpack</li>
-               <li>HTML5</li>
-               <li>CSS/SCSS</li>
-            </ul>
+            <h2 className="badge badge-pill badge-light">Front end development</h2><br />
+            <div className="text-background inline-block">
+               <span>JavaScript</span>
+               <span>React</span>
+               <span>React Testing Library</span>
+               <span>TypeScript</span>
+               <span>Enzyme</span>
+               <span>MobX</span>
+               <span>jQuery</span>
+               <span>Jest</span>
+               <span>Webpack</span>
+               <span>HTML5</span>
+               <span>CSS/SCSS</span>
+            </div>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-light">Back end development</h2>
-            <ul>
-               <li>NodeJS</li>
-               <li>ExpressJS</li>
-               <li>SQL</li>
-               <li>PHP</li>
-               <li>Java</li>
-               <li>Kotlin</li>
-            </ul>
+            <h2 className="badge badge-pill badge-light">Back end development</h2><br />
+            <div className="text-background inline-block">
+               <span>NodeJS</span>
+               <span>ExpressJS</span>
+               <span>PHP</span>
+               <span>Java</span>
+               <span>Kotlin</span>
+            </div>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-light">Databases</h2>
-            <ul>
-               <li>MySQL</li>
-               <li>MongoDB</li>
-               <li>PHP MyAdmin</li>
-            </ul>
+            <h2 className="badge badge-pill badge-light">Databases</h2><br />
+            <div className="text-background inline-block">
+               <span>MySQL</span>
+               <span>SQL</span>
+               <span>MongoDB</span>
+               <span>PHP MyAdmin</span>
+            </div>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-light">Version Control</h2>
-            <ul>
-               <li>Git</li>
-               <li>Subversion</li>
-            </ul>
+            <h2 className="badge badge-pill badge-light">Version Control</h2><br />
+            <div className="text-background inline-block">
+               <span>Git</span>
+               <span>Subversion</span>
+            </div>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-light">DevOps</h2>
-            <ul>
-               <li>Docker</li>
-               <li>Jenkins</li>
-               <li>Splunk</li>
-            </ul>
+            <h2 className="badge badge-pill badge-light">DevOps</h2><br />
+            <div className="text-background inline-block">
+               <span>Github Actions</span>
+               <span>Docker</span>
+               <span>Jenkins</span>
+               <span>Splunk</span>
+            </div>
          </div>
          <div className="mt-4 mb-4">
-            <h2 className="badge badge-pill badge-light">Languages</h2>
-            <ul>
-               <li>English</li>
-               <li>Spanish</li>
-            </ul>
+            <h2 className="badge badge-pill badge-light">Languages</h2><br />
+            <div className="text-background inline-block">
+               <span>English</span>
+               <span>Spanish</span>
+            </div>
          </div>
       </div>
    </div>
