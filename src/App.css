@@ -17,6 +17,12 @@
   width: 23px;
 }
 
+.bio {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+}
+
 .nav-link:hover {
   color: #fff;
 }
@@ -39,6 +45,24 @@
   z-index: -1;
 }
 
+.text-background {
+  background: rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.text-background.inline-block {
+  display: inline-block;
+}
+
+.text-background.inline-block span {
+  padding-right: 1rem;
+}
+
+.text-background.inline-block span:last-child {
+  padding-right: 0;
+}
+
 .skills ul {
   margin: 0;
   padding: 0;
@@ -57,4 +81,10 @@
   .m-stack {
     display: block!important;
   }
+}
+
+@media (max-width: 48rem) {
+  .text-background.inline-block span {
+    display: inline-block;
+  }  
 }
