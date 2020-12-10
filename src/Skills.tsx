@@ -27,7 +27,6 @@ export const Skills = () => (
                <span>ExpressJS</span>
                <span>PHP</span>
                <span>Java</span>
-               <span>Kotlin</span>
             </div>
          </div>
          <div className="mt-4 mb-4">
