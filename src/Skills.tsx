@@ -48,7 +48,7 @@ export const Skills = () => (
          <div className="mt-4 mb-4">
             <h2 className="badge badge-pill badge-light">DevOps</h2><br />
             <div className="text-background inline-block">
-               <span>Github Actions</span>
+               <span>GitHub Actions</span>
                <span>Docker</span>
                <span>Jenkins</span>
                <span>Splunk</span>
