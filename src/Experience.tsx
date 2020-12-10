@@ -11,6 +11,7 @@ export const Experience = () => (
                <ul>
                   <li>Help and guide new team of UI developers to ramp up on new company tech stack</li>
                   <li>Help team accomplish first customer traffic goals by tackling and implementing feature gaps</li>
+                  <li>Conduct interviews to identify and onboard quality dev talent</li>
                   <li>Groom and mentor junior engineers</li>
                   <li>Present finished projects/modules to senior partners and VIPs</li>
                </ul>
