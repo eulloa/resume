@@ -18,9 +18,10 @@
 }
 
 .bio {
-  width: 250px;
-  height: 250px;
+  border: 7px #343a40 solid;
   border-radius: 250px;
+  height: 250px;
+  width: 250px;
 }
 
 .nav-link:hover {

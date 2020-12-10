@@ -9,8 +9,9 @@ export const Experience = () => (
             <div className="text-background">
                <h6>Software Development Engineer II (Aug 2020 - Present)</h6>
                <ul>
-                  <li>Help and guide new organization + team of UI developers ramp up on new tech stack</li>
-                  <li>Serve as mentor for junior engineers</li>
+                  <li>Help and guide new team of UI developers to ramp up on new company tech stack</li>
+                  <li>Help team accomplish first customer traffic goals by tackling and implementing feature gaps</li>
+                  <li>Groom and mentor junior engineers</li>
                   <li>Present finished projects/modules to senior partners and VIPs</li>
                </ul>
                <h6>Software Development Engineer I (Nov 2017 - Aug 2020)</h6>
@@ -19,13 +20,13 @@ export const Experience = () => (
                      viewports used by thousands of travel customers around the world
                   </li>
                   <li>Responsible for writing unit, integration and smoke tests to ensure technical accuracy of production code</li>
+                  <li>Regular participation in code and pull request reviews, grooming sessions, retrospectives and other best team practices</li>
                   <li>Contributed to backend microservice layers in Kotlin and Java when necessary</li>
-                  <li>Helped lead initial exploration into refactoring existing MobX connected React components into standalone GraphQL
+                  <li>Helped lead initial exploration into refactoring existing MobX React components into standalone GraphQL
                      connected React components
                   </li>
-                  <li>Responsible for fine-tuning and integrating new tools into existing Jenkins automation jobs</li>
+                  <li>Responsible for configuring and integrating tools into existing Jenkins automation jobs</li>
                   <li>Monitor code releases and investigate production issues using tools like Splunk and Grafana</li>
-                  <li>Refactored JSX React to TSX React</li>
                </ul>
             </div>
          </div>

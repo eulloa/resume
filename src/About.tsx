@@ -23,10 +23,11 @@ export const About = () => (
       <div className="row p-4">
          <section className="text-white">
             <h2 className="badge badge-dark">Background</h2><br />
-            <p className="text-background">Front end focused, full stack engineer with 6 years of professional software development experience.
-               A fast learner with a proven track record for delivering results in a deadline driven environment, I am
-               looking for a challenging position where the intersection of technology and software development can be leveraged
-               to achieve business goals and success.
+            <p className="text-background">
+               Compassionate, ever curious and highly motivated software engineer with 6 years of professional software development experience.
+               I'm interested in full stack software development, automation, dev-ops, testing, functional programming and writing clean and scalable production ready code.
+               I believe learning never stops and that we often have to fail and break things in order to fully understand them. When it comes to
+               the world of software development, the sky is the limit - let's build something incredible together!
             </p>
          </section>
       </div>
