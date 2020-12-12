@@ -3,7 +3,20 @@ name: Resume CI
 on: [push, pull_request]
     
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - name: npm install and webpack build
+        run: |
+          npm install
+          npm run build
+      - uses: actions/upload-artifact@main
+        with:
+          name: webpack artifacts
+          path: build/
   test:
+    needs: build
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -11,6 +24,10 @@ jobs:
         node-version: [12.x]
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/download-artifact@main
+        with:
+          name: webpack artifacts
+          path: build
       - name: Use Node.js ${{ matrix.version }}
         uses: actions/setup-node@v1
         with:
