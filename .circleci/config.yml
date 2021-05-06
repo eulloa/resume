@@ -1,0 +1,20 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10-browsers
+    steps:
+      - checkout
+      - run:
+          name: First Step
+          command: |
+            echo 'Hello world!'
+            echo 'from CircleCI Pipeline'
+      - run:
+          name: Checked out da code
+          command: |
+            echo 'listing out directory contents'
+            ls -als
+      - run:
+          name: Runs in unique container
+          command: node -v
