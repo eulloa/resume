@@ -23,7 +23,7 @@ export const Experience = () => (
                   </li>
                   <li>
                      Craft solutions for monitoring client side performance and Javascript bundle size such as creating a bundle size analysis script of changes
-                     consuable by a Datadog monitoring service
+                     consumable by a Datadog monitoring service
                   </li>
                   <li>
                      Engineered a revenue report program using a serverless AWS Lambda written in Golang to read data from a MySQL RDS in an AWS VPC
