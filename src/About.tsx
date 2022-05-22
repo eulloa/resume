@@ -7,7 +7,7 @@ export const About = () => (
          <div className="mx-auto text-white d-flex m-stack">
             <img className="bio" src={src} alt="c'est moi" />
             <div className="d-flex flex-column justify-content-center pl-4 m-stack contact">
-               <h2 className="badge badge-dark">Efren Ulloa</h2>
+               <h2 className="badge badge-black-transparent">Efren Ulloa</h2>
                <h6>Software Engineer</h6>
                <div className="container logo-container">
                   <div className="github-logo logo"></div>
@@ -22,10 +22,10 @@ export const About = () => (
       </div>
       <div className="row p-4">
          <section className="text-white">
-            <h2 className="badge badge-dark">Background</h2><br />
+            <h2 className="badge badge-black-transparent">Background</h2><br />
             <p className="text-background">
-               Compassionate, ever curious and highly motivated software engineer with 6 years of professional software development experience.
-               I'm interested in full stack software development, automation, dev-ops, testing, functional programming and writing clean and scalable production ready code.
+               Compassionate, ever curious and highly motivated software engineer with 8 years of professional software development experience.
+               I'm interested in blockchain and full stack software development, automation, dev-ops, testing, functional programming and writing clean and scalable production ready code.
                I believe learning never stops and that we often have to fail and break things in order to fully understand them. When it comes to
                the world of software development, the sky is the limit - let's build something incredible together!
             </p>
