@@ -59,6 +59,15 @@ export const Skills = () => (
             </div>
          </div>
          <div className="mt-4 mb-4">
+            <h2 className="badge badge-pill badge-light">Blockchain</h2><br />
+            <div className="text-background inline-block">
+               <span>Solidity</span>
+               <span>Web3.JS</span>
+               <span>Hardhat</span>
+               <span>Metamask</span>
+            </div>
+         </div>
+         <div className="mt-4 mb-4">
             <h2 className="badge badge-pill badge-light">Languages</h2><br />
             <div className="text-background inline-block">
                <span>English</span>
