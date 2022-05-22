@@ -6,6 +6,10 @@
   font-size: 1rem;
 }
 
+.badge-black-transparent {
+  background: rgba(0, 0, 0, .75);
+}
+
 .logo-container {
   position: relative;
 }
@@ -47,9 +51,10 @@
 }
 
 .text-background {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .75);
   border-radius: 5px;
-  padding: .5rem;
+  line-height: 1.75rem;
+  padding: 1rem;
 }
 
 .text-background.inline-block {
@@ -72,6 +77,10 @@
 .skills li  {
   display: inline-flex;
   padding-right: 1rem;
+}
+
+.text-blue {
+  color: #007bff;
 }
 
 @media (max-width: 31.25em) {
