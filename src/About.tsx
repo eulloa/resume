@@ -1,8 +1,7 @@
-import React from 'react';
 import src from './Images/bio.jpg';
 
 export const About = () => (
-   <div className="container">
+   <div className="container about">
       <div className="row p-4">
          <div className="mx-auto text-white d-flex m-stack">
             <img className="bio" src={src} alt="c'est moi" />
@@ -24,7 +23,7 @@ export const About = () => (
          <section className="text-white">
             <h2 className="badge badge-black-transparent">Background</h2><br />
             <p className="text-background">
-               Compassionate, ever curious and highly motivated software engineer with 8 years of professional software development experience.
+               Compassionate, ever curious and highly motivated software engineer with nearly 10 years of professional software development experience.
                I'm interested in blockchain and full stack software development, automation, dev-ops, testing, functional programming and writing clean and scalable production ready code.
                I believe learning never stops and that we often have to fail and break things in order to fully understand them. When it comes to
                the world of software development, the sky is the limit - let's build something incredible together!
