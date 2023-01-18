@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Experience = () => (
    <div className="container">
       <div className="p-4">
@@ -10,7 +8,15 @@ export const Experience = () => (
                <h6 className="text-blue">Senior Software Engineer (March 2021 - Present)</h6>
                <ul>
                   <li>
-                     Lead engineer on legacy web UI marketplace application in charge of feature development, identifying opportunites to scale,
+                     Proven tech leader with experience managing groups of 2-4 developers in an onshore/offshore model with agile delivery methods
+                  </li>
+                  <li>
+                     Lead engineer on a marketplace rebuild project responsible for building the foundation and structure including incorporating a framework and a component library,
+                     hook up Renove for auto generated project dependency pull requests, adding project versioning ahdering to semantic versioning and incorporating DangerJS to automate common review chores as well as
+                     handling building of the project in CircleCI and deploying the newly built Dockerized image to AWS ECR.
+                  </li>
+                  <li>
+                     Lead engineer on legacy marketplace application in charge of feature development, identifying opportunites to scale,
                      optimize and using tools like Google Lighthouse, audit vital web metrics to maximize application performance
                   </li>
                   <li>
@@ -22,17 +28,15 @@ export const Experience = () => (
                      platform which was also optimized for mobile devices
                   </li>
                   <li>
+                     Experienced with enterprise UX standards and adhering to brand governenance
+                  </li>
+                  <li>
                      Craft solutions for monitoring client side performance and Javascript bundle size such as creating a bundle size analysis script of changes
                      consumable by a Datadog monitoring service
                   </li>
                   <li>
                      Engineered a revenue report program using a serverless AWS Lambda written in Golang to read data from a MySQL RDS in an AWS VPC
                      and generate a report for consumption by accounting team
-                  </li>
-                  <li>
-                     Lead engineer on a UI marketplace rebuild project responsible for building the foundation and structure including incorporating a framework and a component library,
-                     hook up Renove for auto generated project dependency pull requests, adding project versioning ahdering to semantic versioning and incorporating DangerJS to automate common review chores as well as
-                     handling building of the project in CircleCI and deploying the newly built Dockerized image to AWS ECR.
                   </li>
                   <li>
                      Drive integration test project which included Cypress to run unit, integration and smoke test suites for legacy and web marketplace applications.
