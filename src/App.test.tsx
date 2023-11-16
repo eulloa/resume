@@ -1,8 +1,8 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders TS Particles', () => {
+test("renders TS Particles", () => {
   const { container } = render(<App />);
-  expect(container.querySelector('#tsparticles')).toBeInTheDocument();
+  expect(container.querySelector("#tsparticles")).toBeInTheDocument();
 });
