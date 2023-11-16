@@ -17,7 +17,7 @@ body {
 }
 
 .badge-black-transparent {
-  background: rgba(0, 0, 0, .75);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 footer.bg-dark {
@@ -44,16 +44,18 @@ footer.bg-dark {
   width: 250px;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link.active {
   color: #fff;
 }
 
 .github-logo {
-  background: transparent url(./Images/github-logo.png) no-repeat center center / contain;
+  background: transparent url(./Images/github-logo.png) no-repeat center center /
+    contain;
 }
 
 .mail-logo {
-  background: transparent url(./Images/mail.png) no-repeat center center / contain;
+  background: transparent url(./Images/mail.png) no-repeat center center /
+    contain;
 }
 
 #root {
@@ -63,27 +65,26 @@ footer.bg-dark {
 
 #tsparticles {
   position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
 
 .text-background {
-  background: rgba(0, 0, 0, .75);
+  background: rgba(0, 0, 0, 0.75);
   border-radius: 5px;
   line-height: 1.75rem;
   padding: 1rem;
 }
 
-.text-background.inline-block {
-  display: inline-block;
-}
-
-.text-background.inline-block span {
-  padding-right: 1rem;
-}
-
-.text-background.inline-block span:last-child {
-  padding-right: 0;
+.skill-block {
+  color: #fff;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .skills ul {
@@ -91,7 +92,7 @@ footer.bg-dark {
   padding: 0;
 }
 
-.skills li  {
+.skills li {
   display: inline-flex;
   padding-right: 1rem;
 }
@@ -113,7 +114,7 @@ footer.bg-dark {
   }
 
   .m-stack {
-    display: block!important;
+    display: block !important;
   }
 
   .about {
@@ -122,10 +123,4 @@ footer.bg-dark {
     top: unset;
     transform: unset;
   }
-}
-
-@media (max-width: 48rem) {
-  .text-background.inline-block span {
-    display: inline-block;
-  }  
 }
