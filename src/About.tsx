@@ -23,10 +23,9 @@ export const About = () => (
          <section className="text-white">
             <h2 className="badge badge-black-transparent">Background</h2><br />
             <p className="text-background">
-               Compassionate, ever curious and highly motivated software engineer with nearly 10 years of professional software development experience.
-               I'm interested in blockchain and full stack software development, automation, dev-ops, testing, functional programming and writing clean and scalable production ready code.
-               I believe learning never stops and that we often have to fail and break things in order to fully understand them. When it comes to
-               the world of software development, the sky is the limit - let's build something incredible together!
+              Compassionate, curious and highly motivated AI first software engineer with a over a decade of professional software industry experience. I specialize in full stack development and I'm passionate about building resilient software with automation, DevOps, a strong testing foundation, functional programming and by leveraging the power of AI to conceive, iterate and execute at a speed that can match the needs of your business.
+            <br /><br />
+              These days, writing code isn't done by hand any longer but the principles of good engineering are more important than ever before. I believe that continuous learning and the willingness to fail and iterate is essential to mastery. When it comes to the world of software development, the sky is the limit - let's build something incredible together!
             </p>
          </section>
       </div>
