@@ -3,67 +3,58 @@ export const Experience = () => (
     <div className="p-4">
       <h2 className="badge badge-black-transparent text-white">Experience</h2>
       <div className="mt-4 mb-4 text-white">
-        <h2 className="badge badge-pill badge-light">BluePallet</h2>
+        <h2 className="badge badge-pill badge-light">Syncro</h2>
         <div className="text-background">
           <h6 className="text-blue">
-            Senior Software Engineer (March 2021 - Present)
+            Senior Software Engineer (March 2024 - Present)
           </h6>
           <ul>
             <li>
-              Proven tech leader with experience managing groups of 2-4
-              developers in an onshore/offshore model with agile delivery
+              Design AI engineering workflows resulting in up to <span className="bold">50% increase in engineering throughput</span>
+            </li>
+            <li>
+              Architected, designed and implemented reusable design system, facilitating a <span className="bold">33% productivty boost</span>
+              {' '}among engineering teams and UI development
+            </li>
+            <li>
+              Implement, design and scale ticketing system and features, resulting in <span className="bold">20%
+              boost in sales</span>
+            </li>
+            <li>
+              Increased personal throughput and contribution <span className="bold">efficiency by over 100% leveraging AI tooling</span>
+            </li>
+            <li>Document, diagram and refactor legacy systems</li>
+          </ul>
+        </div>
+      </div>
+      <div className="mt-4 mb-4 text-white">
+        <h2 className="badge badge-pill badge-light">BluePallet</h2>
+        <div className="text-background">
+          <h6 className="text-blue">
+            Senior Software Engineer (March 2021 - Feb 2024)
+          </h6>
+          <ul>
+            <li>
+              Mentored and managed groups of 2-4 developers in an onshore/offshore model with agile delivery
               methods
             </li>
             <li>
-              Lead engineer on a marketplace rebuild project responsible for
-              building the foundation and structure including incorporating a
-              framework and a component library, hook up Renove for auto
-              generated project dependency pull requests, adding project
-              versioning ahdering to semantic versioning and incorporating
-              DangerJS to automate common review chores as well as handling
-              building of the project in CircleCI and deploying the newly built
-              Dockerized image to AWS ECR.
+              Lead engineer on marketplace rebuild that led to <span className="bold">80% reduction</span>
+              {' '}in build and deploy time.
             </li>
             <li>
-              Lead engineer on legacy marketplace application in charge of
-              feature development, identifying opportunites to scale, optimize
-              and using tools like Google Lighthouse, audit vital web metrics to
-              maximize application performance
+              Rebuilt legacy onboarding flow resulting in <span className="bold">30% sign up increase
+              in new business</span>. Core web vital metrics for time to first byte{' '}
+              <span className="bold">improved by 50%</span>
             </li>
             <li>
-              Identified key solution for redundant client side network requests
-              by implementing a fully functional and scalable GraphQL POC using
-              Hasura Cloud that eliminates unnecessary fetching using Apollo
-              Client's powerful caching features
+              Engineered revenue report system using AWS Lambda,
+              Golang, MySQL RDS and AWS VPC <span className="bold">saving thousands of dollars
+              annually</span> by reducing dependence on 3rd party software.
             </li>
             <li>
-              Led development of project to refactor onboarding module which
-              significantly improved users ability to register seamlessly on the
-              platform which was also optimized for mobile devices
-            </li>
-            <li>
-              Experienced with enterprise UX standards and adhering to brand
-              governenance
-            </li>
-            <li>
-              Craft solutions for monitoring client side performance and
-              Javascript bundle size such as creating a bundle size analysis
-              script of changes consumable by a Datadog monitoring service
-            </li>
-            <li>
-              Engineered a revenue report program using a serverless AWS Lambda
-              written in Golang to read data from a MySQL RDS in an AWS VPC and
-              generate a report for consumption by accounting team
-            </li>
-            <li>
-              Drive integration test project which included Cypress to run unit,
-              integration and smoke test suites for legacy and web marketplace
-              applications. Additionally, ensure that the tests run as part of a
-              CircleCI continuous integration build server
-            </li>
-            <li>
-              Deploy projects to different environments using AWS Codebuild,
-              Amplify and ECS services
+              Designed and configured CI/CD automation <span className="bold">reducing legacy build times
+              by 25%</span>
             </li>
           </ul>
         </div>
@@ -76,19 +67,18 @@ export const Experience = () => (
           </h6>
           <ul>
             <li>
-              Help and guide new team of UI developers to ramp up on new company
-              GraphQL tech stack
+              Mentor new team of engineers, which saw a <span className="bold">15% reduction on delivery time</span>
+              {' '}for full stack features
             </li>
             <li>
-              Help team accomplish first customer traffic goals by tackling and
-              implementing feature gaps
+              Helped design GraphQL endpoints, <span className="bold">reducing api latency by
+              10%</span>
             </li>
-            <li>
-              Conduct interviews to identify and onboard quality dev talent
-            </li>
-            <li>Groom and mentor junior engineers</li>
             <li>
               Present finished projects/modules to senior partners and VIPs
+            </li>
+            <li>
+              Coordinated interviews to identify and onboard quality engineering talent
             </li>
           </ul>
           <h6 className="text-blue">
@@ -98,19 +88,11 @@ export const Experience = () => (
             <li>
               Played a critical role in migrating a React mobile progressive web
               application to tablet/desktop viewports used by thousands of
-              travel customers around the world
-            </li>
-            <li>
-              Responsible for writing unit, integration and smoke tests to
-              ensure technical accuracy of production code
+              travel customers around the world, resulting in <span className="bold">30% additional web traffic</span>
             </li>
             <li>
               Regular participation in code and pull request reviews, grooming
               sessions, retrospectives and other best team practices
-            </li>
-            <li>
-              Contributed to backend microservice layers in Kotlin and Java when
-              necessary
             </li>
             <li>
               Helped lead initial exploration into refactoring existing MobX
@@ -171,3 +153,4 @@ export const Experience = () => (
     </div>
   </div>
 );
+
