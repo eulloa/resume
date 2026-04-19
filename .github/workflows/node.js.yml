@@ -7,9 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
+        with:
+          node-version: '16.8.0'
       - name: npm install and webpack build
         run: |
-          npm install
+          npm install -f
           npm run build
       - uses: actions/upload-artifact@main
         with:
