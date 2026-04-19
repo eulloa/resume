@@ -4,6 +4,18 @@ export const Skills = () => (
       <h2 className="badge badge-black-transparent">Skills</h2>
       <br />
       <div className="mt-4 mb-4">
+        <h2 className="badge badge-pill badge-light">AI Engineering</h2>
+        <br />
+        <div className="text-background skill-block">
+          <span>TensowFlow</span>
+          <span>TensorFlowJS</span>
+          <span>Python</span>
+          <span>Claude</span>
+          <span>Gemini CLI</span>
+          <span>Ollama</span>
+        </div>
+      </div>
+      <div className="mt-4 mb-4">
         <h2 className="badge badge-pill badge-light">Front end development</h2>
         <br />
         <div className="text-background skill-block">
