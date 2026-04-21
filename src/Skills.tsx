@@ -43,6 +43,7 @@ export const Skills = () => (
         <h2 className="badge badge-pill badge-light">Back end development</h2>
         <br />
         <div className="text-background skill-block">
+          <span>Ruby on Rails</span>
           <span>NodeJS</span>
           <span>NextJS</span>
           <span>ExpressJS</span>
@@ -74,6 +75,7 @@ export const Skills = () => (
         <h2 className="badge badge-pill badge-light">DevOps</h2>
         <br />
         <div className="text-background skill-block">
+          <span>Kubernetes</span>
           <span>AWS</span>
           <span>GitHub Actions</span>
           <span>Docker</span>
@@ -81,16 +83,6 @@ export const Skills = () => (
           <span>Jenkins</span>
           <span>Splunk</span>
           <span>Grafana</span>
-        </div>
-      </div>
-      <div className="mt-4 mb-4">
-        <h2 className="badge badge-pill badge-light">Blockchain</h2>
-        <br />
-        <div className="text-background skill-block">
-          <span>Solidity</span>
-          <span>Web3.JS</span>
-          <span>Hardhat</span>
-          <span>Metamask</span>
         </div>
       </div>
       <div className="mt-4 mb-4">
