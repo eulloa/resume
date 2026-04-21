@@ -6,7 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps: 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
         with:
           node-version: '16.8.0'
       - name: npm install and webpack build
@@ -23,18 +24,18 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [12.x]
+        node-version: ['16.8.0']
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
       - uses: actions/download-artifact@main
         with:
           name: webpack artifacts
           path: build
       - name: Use Node.js ${{ matrix.version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v5
         with:
           node-version: ${{ matrix.versin }}
       - name: npm install and test
         run: |
-          npm install
+          npm install -f
           npm test
