@@ -17,6 +17,10 @@ export const Experience = () => (
               {' '}among engineering teams and UI development
             </li>
             <li>
+              Architected, designed and implemented module federated system of remote UIs, enabling a micro front end architecture that{' '}
+              <span className="bold">substantially expedited iteration and delivery</span> of UI features
+            </li>
+            <li>
               Implement, design and scale ticketing system and features, resulting in <span className="bold">20%
               boost in sales</span>
             </li>
