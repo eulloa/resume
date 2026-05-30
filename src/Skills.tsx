@@ -31,6 +31,7 @@ export const Skills = () => (
           <span>jQuery</span>
           <span>Jest</span>
           <span>Cypress</span>
+          <span>Playwright</span>
           <span>Webpack</span>
           <span>HTML5</span>
           <span>CSS/SCSS</span>
